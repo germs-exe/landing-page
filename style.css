@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: 0px;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    border-color: #1F2937;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 75px;
+}
+
+.links{
+    display:flex;
+    align-content: space-between;
+    align-self: center;
+    gap: 24px;
+    list-style-type: none;
+    padding: 12px;
+    margin-right: 60px;
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.a:visited{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-self: center;
+    padding: 12px;
+    font-weight: bolder;
+}
